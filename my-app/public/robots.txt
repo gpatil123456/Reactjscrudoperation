@@ -1,3 +1,5 @@
+3 lines (3 sloc)  67 Bytes
+
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:

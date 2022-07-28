@@ -1,35 +1,88 @@
-
 .center{
   text-align: center;
+  text-shadow: 2px;
   font-weight: bold;
-  font-size: large;
+  font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .form{
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   font-size: 16px;
 }
 
 .form input {
 width: 300px;
 margin: 10px;
 height:40px;
+font-size: 14px;
 border-radius: 2px;
 border-color: aqua;
 border-width: 2px;
+border-radius: 6px;
+box-shadow: 10px 10px rgb(7, 141, 186);
 
 }
 .card{
-   width: 500px;
-   height: 170px;
-   border: 2px solid black;
-   border-radius: 15px;
+   width: 300px;
+   height: 100%;
+   border: 2px solid aqua;
+   border-radius: 10px;
    margin: 10px;
+   backgroundColor: aliceblue;
+   box-shadow: 10px 10px rgb(7, 141, 186);
 }
+
 .one{
-   width: 100px;
-   height: 20px;
+   width: 200px;
+   height: 25px;
+   font-size: 12px;
    margin-bottom: 10px;
+   border-radius: 2px;
+   border-color: aqua;
+   border-width: 2px;
+   margin-top: 7%;
+   border-radius: 4px;
+
+}
+
+.wrap{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-size: 16px;
+   font-weight: 600;
+   alignItems: baseline;
+}
+.dot{
+   height: 20px;
+}
+.button{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   row-gap: 20px;
+   align-items: baseline;
+   
+ 
+  
+}
+.button_two{
+
+   margin: 15px;
+
+
+}
+.form placeholder{
+   font-size: 12px;
+   font-weight: 400;
+}
+.button3{
+   padding: 10px;
+   border-radius: 2px;
+   background-color: aquamarine;
 }
